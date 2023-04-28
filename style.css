@@ -9,13 +9,14 @@
 body {
     background-color: #33475b;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
     background-color: #ffffff;
     height: 80px;
     display: flex;
+    margin-bottom: 37px;
 }
 
 .container-elementos-header {
@@ -51,3 +52,49 @@ header {
 ::placeholder {
     color: #ff97d3;
 }
+
+.container-elementos-main {
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 400px;
+    height: 444.74px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 37px;
+}
+
+.titulo {
+    color: #364372;
+    font-size: 24px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.texto {
+    width: 328.1px;
+    height: 168px;
+    margin-left: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.botao {
+    width: 138.77px;
+    height: 47.48px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #264fec;
+    background-color: #ffffff;
+    border-color: #0000EE;
+    margin-left: 32px;
+    margin-top: 100px;
+}
+
