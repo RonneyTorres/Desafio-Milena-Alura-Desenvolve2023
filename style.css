@@ -29,7 +29,8 @@ header {
 
 .titulo-principal {
     color: #0000EE;
-    font-size: 24px;
+    font-size: 20px;
+    margin-left: 185px;
 }
 
 .label-pesquisa {
@@ -81,20 +82,59 @@ section {
     width: 328.1px;
     height: 168px;
     margin-left: 32px;
-    font-size: 16px;
+    font-size: 14.1px;
     font-weight: 400;
     text-align: left;
+    
 }
 
 .botao {
     width: 138.77px;
-    height: 47.48px;
+    height: 42px;
     border-radius: 4px;
     font-size: 14px;
     color: #264fec;
     background-color: #ffffff;
     border-color: #0000EE;
     margin-left: 32px;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
+footer{
+    background-color: #ffffff;
+    height: 110px;
+    display: flex;
+}
+
+.containerFooter {
+    display: flex;
+    width: 1280px;
+    height: 110px;
+    margin: 0px auto;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.footer01 {
+    display: flex;
+    align-items: center;
+    padding-right: 120px;
+}
+
+.logoBoticario{
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 50px;
+}
+
+.footer03 {
+    display: flex;
+    align-items: center;
+    border: 0 auto;
+    
+}
